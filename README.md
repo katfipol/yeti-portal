@@ -15,9 +15,9 @@
 <p><strong>ENDLESS RUNNER UNIVERSITARIO</strong></p>
 <p>Una defensa está por empezar. Recorre el campus, supera los obstáculos y llega a tiempo.</p>
 
-<a href="https://katfipol.itch.io/yeti-enes-que-correr"><img src="assets/readme/boton-jugar.svg" alt="Jugar ahora en itch.io" width="260"></a> &nbsp; <a href="https://martinleano72-afk.github.io/yeti-portal/"><img src="assets/readme/boton-portal.svg" alt="Explorar el portal web" width="260"></a>
+<a href="https://martinleano72-afk.github.io/yeti-portal/juego/"><img src="assets/readme/boton-jugar.svg" alt="Jugar ahora en GitHub Pages" width="260"></a> &nbsp; <a href="https://martinleano72-afk.github.io/yeti-portal/"><img src="assets/readme/boton-portal.svg" alt="Explorar el portal web" width="260"></a>
 
-<p><a href="https://katfipol.itch.io/yeti-enes-que-correr">Abrir el juego</a> · <a href="https://martinleano72-afk.github.io/yeti-portal/">Visitar el portal</a> · <a href="#jugar">Cómo jugar</a></p>
+<p><a href="https://martinleano72-afk.github.io/yeti-portal/juego/"><img src="assets/readme/enlace-27.svg" alt="Abrir el juego" width="144" height="38"></a> · <a href="https://martinleano72-afk.github.io/yeti-portal/"><img src="assets/readme/enlace-28.svg" alt="Visitar el portal" width="168" height="38"></a> · <a href="#jugar"><img src="assets/readme/enlace-29.svg" alt="Cómo jugar" width="120" height="38"></a></p>
 
 </div>
 
@@ -33,7 +33,7 @@
 
 </div>
 
-[Historia](#narrativa-visual) · [Personaje](#ficha-del-protagonista) · [Escenarios](#escenarios-del-campus) · [Interfaz](#jugabilidad-e-interfaz) · [Controles](#controles-y-mecanicas) · [Desarrollo](#arquitectura-y-metricas) · [Jugar](#jugar) · [Créditos](#portal-y-creditos)
+<a href="#narrativa-visual"><img src="assets/readme/enlace-01.svg" alt="Historia" width="120" height="38"></a> · <a href="#ficha-del-protagonista"><img src="assets/readme/enlace-02.svg" alt="Personaje" width="120" height="38"></a> · <a href="#escenarios-del-campus"><img src="assets/readme/enlace-03.svg" alt="Escenarios" width="120" height="38"></a> · <a href="#jugabilidad-e-interfaz"><img src="assets/readme/enlace-04.svg" alt="Interfaz" width="120" height="38"></a> · <a href="#controles-y-mecanicas"><img src="assets/readme/enlace-05.svg" alt="Controles" width="120" height="38"></a> · <a href="#arquitectura-y-metricas"><img src="assets/readme/enlace-06.svg" alt="Desarrollo" width="120" height="38"></a> · <a href="#jugar"><img src="assets/readme/enlace-07.svg" alt="Jugar" width="120" height="38"></a> · <a href="#portal-y-creditos"><img src="assets/readme/enlace-08.svg" alt="Créditos" width="120" height="38"></a>
 
 ---
 
@@ -53,7 +53,7 @@ El protagonista llega al campus y descubre que quedan pocos minutos para su defe
 > **La misión:** conservar tus vidas mientras sumas puntos y avanzas hacia la defensa.
 
 
-[Volver al menú](#explora-el-campus) · [Ir al inicio](#inicio) · [Siguiente: Protagonista](#ficha-del-protagonista)
+<a href="#explora-el-campus"><img src="assets/readme/enlace-09.svg" alt="Volver al menú" width="144" height="38"></a> · <a href="#inicio"><img src="assets/readme/enlace-10.svg" alt="Ir al inicio" width="128" height="38"></a> · <a href="#ficha-del-protagonista"><img src="assets/readme/enlace-11.svg" alt="Siguiente: Protagonista" width="216" height="38"></a>
 
 ---
 
@@ -78,7 +78,7 @@ El pelaje blanco, la chaqueta guinda y gris y las proporciones de estilo cartoon
 | **Derrota** | Muestra la caída al perder todas las vidas |
 
 
-[Anterior: Narrativa](#narrativa-visual) · [Volver al menú](#explora-el-campus) · [Ir al inicio](#inicio) · [Siguiente: Escenarios](#escenarios-del-campus)
+<a href="#narrativa-visual"><img src="assets/readme/enlace-12.svg" alt="Anterior: Narrativa" width="184" height="38"></a> · <a href="#explora-el-campus"><img src="assets/readme/enlace-09.svg" alt="Volver al menú" width="144" height="38"></a> · <a href="#inicio"><img src="assets/readme/enlace-10.svg" alt="Ir al inicio" width="128" height="38"></a> · <a href="#escenarios-del-campus"><img src="assets/readme/enlace-13.svg" alt="Siguiente: Escenarios" width="200" height="38"></a>
 
 ---
 
@@ -100,7 +100,7 @@ Los pasillos, las aulas y la señalética universitaria forman parte de la ambie
 | **Desplazamiento del fondo** | Acompaña la sensación de carrera |
 
 
-[Anterior: Protagonista](#ficha-del-protagonista) · [Volver al menú](#explora-el-campus) · [Ir al inicio](#inicio) · [Siguiente: Interfaz](#jugabilidad-e-interfaz)
+<a href="#ficha-del-protagonista"><img src="assets/readme/enlace-14.svg" alt="Anterior: Protagonista" width="208" height="38"></a> · <a href="#explora-el-campus"><img src="assets/readme/enlace-09.svg" alt="Volver al menú" width="144" height="38"></a> · <a href="#inicio"><img src="assets/readme/enlace-10.svg" alt="Ir al inicio" width="128" height="38"></a> · <a href="#jugabilidad-e-interfaz"><img src="assets/readme/enlace-15.svg" alt="Siguiente: Interfaz" width="184" height="38"></a>
 
 ---
 
@@ -124,7 +124,7 @@ Los pasillos, las aulas y la señalética universitaria forman parte de la ambie
 | **Victoria o derrota** | Resultado de la partida y opción de volver a jugar |
 
 
-[Anterior: Escenarios](#escenarios-del-campus) · [Volver al menú](#explora-el-campus) · [Ir al inicio](#inicio) · [Siguiente: Controles](#controles-y-mecanicas)
+<a href="#escenarios-del-campus"><img src="assets/readme/enlace-16.svg" alt="Anterior: Escenarios" width="192" height="38"></a> · <a href="#explora-el-campus"><img src="assets/readme/enlace-09.svg" alt="Volver al menú" width="144" height="38"></a> · <a href="#inicio"><img src="assets/readme/enlace-10.svg" alt="Ir al inicio" width="128" height="38"></a> · <a href="#controles-y-mecanicas"><img src="assets/readme/enlace-17.svg" alt="Siguiente: Controles" width="192" height="38"></a>
 
 ---
 
@@ -153,7 +153,7 @@ El personaje corre automáticamente. Tú decides cuándo saltar y cuándo agacha
 - Al finalizar, puedes iniciar una nueva partida.
 
 
-[Anterior: Interfaz](#jugabilidad-e-interfaz) · [Volver al menú](#explora-el-campus) · [Ir al inicio](#inicio) · [Siguiente: Desarrollo](#arquitectura-y-metricas)
+<a href="#jugabilidad-e-interfaz"><img src="assets/readme/enlace-18.svg" alt="Anterior: Interfaz" width="176" height="38"></a> · <a href="#explora-el-campus"><img src="assets/readme/enlace-09.svg" alt="Volver al menú" width="144" height="38"></a> · <a href="#inicio"><img src="assets/readme/enlace-10.svg" alt="Ir al inicio" width="128" height="38"></a> · <a href="#arquitectura-y-metricas"><img src="assets/readme/enlace-19.svg" alt="Siguiente: Desarrollo" width="200" height="38"></a>
 
 ---
 
@@ -170,8 +170,7 @@ El personaje corre automáticamente. Tú decides cuándo saltar y cuándo agacha
 | **Mixamo** | Animaciones del personaje |
 | **HTML y CSS** | Presentación y diseño adaptable del portal |
 | **JavaScript** | Navegación e interacciones del portal |
-| **GitHub Pages** | Publicación del portal web |
-| **itch.io** | Acceso a la versión jugable en el navegador |
+| **GitHub Pages** | Publicación del portal y ejecución del juego en el navegador |
 
 <details>
 <summary><strong>Ver la organización funcional del videojuego</strong></summary>
@@ -197,12 +196,15 @@ El personaje corre automáticamente. Tú decides cuándo saltar y cuándo agacha
 | `script.js` | Interacciones del portal |
 | `assets/images/` | Capturas, portada y personaje |
 | `assets/readme/` | Cabecera, botones y navegación de esta presentación |
+| `juego/index.html` | Página de ejecución del juego |
+| `juego/Build/` | Compilación web de Unity |
+| `juego/TemplateData/` | Recursos del reproductor |
 | `README.md` | Documentación del proyecto |
 
 </details>
 
 
-[Anterior: Controles](#controles-y-mecanicas) · [Volver al menú](#explora-el-campus) · [Ir al inicio](#inicio) · [Siguiente: Jugar](#jugar)
+<a href="#controles-y-mecanicas"><img src="assets/readme/enlace-20.svg" alt="Anterior: Controles" width="184" height="38"></a> · <a href="#explora-el-campus"><img src="assets/readme/enlace-09.svg" alt="Volver al menú" width="144" height="38"></a> · <a href="#inicio"><img src="assets/readme/enlace-10.svg" alt="Ir al inicio" width="128" height="38"></a> · <a href="#jugar"><img src="assets/readme/enlace-21.svg" alt="Siguiente: Jugar" width="160" height="38"></a>
 
 ---
 
@@ -214,12 +216,12 @@ El personaje corre automáticamente. Tú decides cuándo saltar y cuándo agacha
 
 <div align="center">
 
-<a href="https://katfipol.itch.io/yeti-enes-que-correr"><img src="assets/readme/boton-jugar.svg" alt="Jugar ahora en itch.io" width="280"></a>
+<a href="https://martinleano72-afk.github.io/yeti-portal/juego/"><img src="assets/readme/boton-jugar.svg" alt="Jugar ahora en GitHub Pages" width="280"></a>
 
 </div>
 
-1. Abre el [juego en itch.io](https://katfipol.itch.io/yeti-enes-que-correr).
-2. Pulsa **Run game** y espera a que termine de cargar.
+1. Abre el <a href="https://martinleano72-afk.github.io/yeti-portal/juego/"><img src="assets/readme/enlace-22.svg" alt="juego en GitHub Pages" width="200" height="38"></a>.
+2. Espera a que termine de cargar el menú inicial.
 3. Selecciona **Jugar** en el menú inicial.
 4. Haz clic dentro de la partida para activar el teclado.
 5. Utiliza <kbd>↑</kbd> para saltar y <kbd>↓</kbd> para agacharte.
@@ -237,7 +239,7 @@ El personaje corre automáticamente. Tú decides cuándo saltar y cuándo agacha
 </details>
 
 
-[Anterior: Desarrollo](#arquitectura-y-metricas) · [Volver al menú](#explora-el-campus) · [Ir al inicio](#inicio) · [Siguiente: Portal y créditos](#portal-y-creditos)
+<a href="#arquitectura-y-metricas"><img src="assets/readme/enlace-23.svg" alt="Anterior: Desarrollo" width="192" height="38"></a> · <a href="#explora-el-campus"><img src="assets/readme/enlace-09.svg" alt="Volver al menú" width="144" height="38"></a> · <a href="#inicio"><img src="assets/readme/enlace-10.svg" alt="Ir al inicio" width="128" height="38"></a> · <a href="#portal-y-creditos"><img src="assets/readme/enlace-24.svg" alt="Siguiente: Portal y créditos" width="256" height="38"></a>
 
 ---
 
@@ -260,19 +262,19 @@ El portal reúne la presentación del juego, la historia, el protagonista, las m
 | Participación | Integrantes |
 | :--- | :--- |
 | **Videojuego** | Melani Quintela Aguilar y José Martin Leaño Mercado |
-| **Portal web** | [Martín Leaño](https://github.com/martinleano72-afk) |
+| **Portal web** | <a href="https://github.com/martinleano72-afk"><img src="assets/readme/enlace-25.svg" alt="Martín Leaño" width="128" height="38"></a> |
 | **Asignatura** | Game Development |
 
 Proyecto académico desarrollado en Unity y presentado mediante un portal web.
 
 
-[Anterior: Jugar](#jugar) · [Volver al menú](#explora-el-campus) · [Ir al inicio](#inicio)
+<a href="#jugar"><img src="assets/readme/enlace-26.svg" alt="Anterior: Jugar" width="152" height="38"></a> · <a href="#explora-el-campus"><img src="assets/readme/enlace-09.svg" alt="Volver al menú" width="144" height="38"></a> · <a href="#inicio"><img src="assets/readme/enlace-10.svg" alt="Ir al inicio" width="128" height="38"></a>
 
 ---
 <div align="center">
 
 <strong>EL CAMPUS TE ESPERA. LA DEFENSA TAMBIÉN.</strong>
 
-<p><a href="https://katfipol.itch.io/yeti-enes-que-correr">Jugar ahora</a> · <a href="https://martinleano72-afk.github.io/yeti-portal/">Explorar el portal</a> · <a href="#inicio">Volver al inicio</a></p>
+<p><a href="https://martinleano72-afk.github.io/yeti-portal/juego/"><img src="assets/readme/enlace-30.svg" alt="Jugar ahora" width="120" height="38"></a> · <a href="https://martinleano72-afk.github.io/yeti-portal/"><img src="assets/readme/enlace-31.svg" alt="Explorar el portal" width="176" height="38"></a> · <a href="#inicio"><img src="assets/readme/enlace-32.svg" alt="Volver al inicio" width="160" height="38"></a></p>
 
 </div>
