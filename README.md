@@ -1,406 +1,278 @@
-<div align="center">
-
-  <!-- CABECERA VECTORIAL PRINCIPAL -->
-  <img src="assets/readme/cabecera.svg" alt="Cabecera Corre Yeti Corre" width="100%"/>
-
-  <br/>
-
-  <!-- BARRA DE ETIQUETAS CON FONDO SÓLIDO (100% COMPATIBLE CON GITHUB) -->
-  <p>
-    <img src="https://img.shields.io/badge/MOTOR-UNITY_3D-1E242B?style=for-the-badge&logo=unity&logoColor=white&labelColor=7A1C2E" alt="Unity 3D"/>
-    <img src="https://img.shields.io/badge/LENGUAJE-C_SHARP-1E242B?style=for-the-badge&logo=csharp&logoColor=white&labelColor=7A1C2E" alt="C#"/>
-    <img src="https://img.shields.io/badge/ESTILO-CARTOON_3D-1E242B?style=for-the-badge&labelColor=D4AF37" alt="Cartoon 3D"/>
-    <img src="https://img.shields.io/badge/PLATAFORMA-PC_%7C_WEBGL-1E242B?style=for-the-badge&labelColor=7A1C2E" alt="Plataforma"/>
-  </p>
-
-  <!-- TARJETA PRINCIPAL CON CABECERA Y FONDO DIFERENCIADO -->
-  <table>
-    <thead>
-      <tr>
-        <th align="center">
-          <br/>
-          $\Large\color{#7A1C2E}\textbf{CORRE YETI CORRE — ENDLESS RUNNER UNIVERSITARIO}$
-          <br/><br/>
-        </th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td align="center">
-          <br/>
-          Un videojuego de carrera infinita donde cada segundo cuenta. Atraviesa los pasillos del campus, esquiva el mobiliario universitario y supera todos los obstáculos antes de que se cierren las puertas del aula de defensa.
-          <br/><br/>
-          <!-- BOTONES DE ACCIÓN PRINCIPALES -->
-          <a href="#jugabilidad-e-interfaz">
-            <img src="assets/readme/boton-jugar.svg" alt="Jugar Ahora" height="46"/>
-          </a>
-          &nbsp;&nbsp;&nbsp;&nbsp;
-          <a href="#escenarios-del-campus">
-            <img src="assets/readme/boton-portal.svg" alt="Portal del Proyecto" height="46"/>
-          </a>
-          <br/><br/>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-
-  <!-- MENÚ DE NAVEGACIÓN CON BOTONES DE COLOR -->
-  <p>
-    <a href="#narrativa-visual"><img src="https://img.shields.io/badge/01_NARRATIVA-7A1C2E?style=for-the-badge&logoColor=white" alt="Narrativa"/></a>
-    <a href="#ficha-del-protagonista"><img src="https://img.shields.io/badge/02_PROTAGONISTA-7A1C2E?style=for-the-badge&logoColor=white" alt="Protagonista"/></a>
-    <a href="#escenarios-del-campus"><img src="https://img.shields.io/badge/03_ESCENARIOS-7A1C2E?style=for-the-badge&logoColor=white" alt="Escenarios"/></a>
-    <a href="#jugabilidad-e-interfaz"><img src="https://img.shields.io/badge/04_INTERFAZ-7A1C2E?style=for-the-badge&logoColor=white" alt="Interfaz"/></a>
-    <a href="#controles-y-mecanicas"><img src="https://img.shields.io/badge/05_CONTROLES-7A1C2E?style=for-the-badge&logoColor=white" alt="Controles"/></a>
-    <a href="#arquitectura-y-metricas"><img src="https://img.shields.io/badge/06_METRICAS-7A1C2E?style=for-the-badge&logoColor=white" alt="Metricas"/></a>
-  </p>
-
-</div>
-
-<br/>
-
-<!-- SEPARADOR DE SECCIÓN 01 CON FONDO SÓLIDO -->
-<div align="center" id="narrativa-visual">
-  <table>
-    <thead>
-      <tr>
-        <th width="1000" align="center">
-          $\normalsize\color{#D4AF37}\textbf{SECCION 01}$ &nbsp; $\Large\color{#7A1C2E}\textbf{NARRATIVA VISUAL: EL CAMINO A LA DEFENSA}$
-        </th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td align="center">
-          <i>El reloj corre en contra y el campus está lleno de imprevistos que pondrán a prueba tus reflejos.</i>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-<table>
-  <thead>
-    <tr>
-      <th width="50%" align="center">
-        <img src="https://img.shields.io/badge/ACTO_I-CONTRA_EL_RELOJ-D4AF37?style=for-the-badge&labelColor=1E242B" alt="Acto I"/>
-      </th>
-      <th width="50%" align="center">
-        <img src="https://img.shields.io/badge/ACTO_II-CAOS_EN_EL_CAMPUS-7A1C2E?style=for-the-badge&labelColor=1E242B" alt="Acto II"/>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td width="50%" align="center" valign="top">
-        <br/>
-        <img src="assets/images/story1.png" alt="Acto I: Contra el Reloj" width="100%"/>
-        <br/><br/>
-        <pre align="center">ESTADO: RETRASO CRITICO EN LA ENTRADA</pre>
-        <p align="justify">
-          El protagonista revisa su reloj en la entrada del campus y descubre que quedan pocos minutos para el inicio de la evaluación. Comienza una carrera a máxima velocidad saltando pilas de libros y mochilas olvidadas en el patio.
-        </p>
-      </td>
-      <td width="50%" align="center" valign="top">
-        <br/>
-        <img src="assets/images/story2.png" alt="Acto II: El Desafío del Campus" width="100%"/>
-        <br/><br/>
-        <pre align="center">META: LLEGAR AL AULA 101 ANTES DEL CIERRE</pre>
-        <p align="justify">
-          Un tropiezo con conos de señalización o apuntes desparramados puede costar la llegada al Aula 101. El objetivo es mantener el ritmo, reaccionar a tiempo y cruzar la puerta antes del cierre.
-        </p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<br/>
-
-<!-- SEPARADOR DE SECCIÓN 02 CON FONDO SÓLIDO -->
-<div align="center" id="ficha-del-protagonista">
-  <table>
-    <thead>
-      <tr>
-        <th width="1000" align="center">
-          $\normalsize\color{#D4AF37}\textbf{SECCION 02}$ &nbsp; $\Large\color{#7A1C2E}\textbf{FICHA TECNICA: EL YETI ESTUDIANTE}$
-        </th>
-      </tr>
-    </thead>
-  </table>
-</div>
-
-<table>
-  <thead>
-    <tr>
-      <th width="45%" align="center">INFOGRAFIA DE DISEÑO 3D</th>
-      <th width="55%" align="center">PERFIL Y ATRIBUTOS DEL PERSONAJE</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td width="45%" align="center" valign="middle">
-        <img src="assets/images/personaje.png" alt="Diseño 3D El Yeti Estudiante" width="100%"/>
-      </td>
-      <td width="55%" valign="top">
-        <div align="center">
-          <br/>
-          <img src="assets/images/personaje-yeti.png" alt="Vista del Modelo" width="170px"/>
-          <br/><br/>
-          <img src="https://img.shields.io/badge/MODELADO-CARTOON_3D_ESTILIZADO-7A1C2E?style=for-the-badge&labelColor=1E242B" alt="Modelo 3D"/>
-        </div>
-        <br/>
-        <table>
-          <thead>
-            <tr>
-              <th align="left">COMPONENTE</th>
-              <th align="left">ESPECIFICACION VISUAL Y FUNCIONAL</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><b>ROSTRO</b></td>
-              <td>Ojos grandes de estilo cartoon que transmiten asombro y urgencia durante toda la partida.</td>
-            </tr>
-            <tr>
-              <td><b>VESTIMENTA</b></td>
-              <td>Chamarra universitaria estilo Varsity en tonos guinda y gris con botones frontales sobre pelaje blanco.</td>
-            </tr>
-            <tr>
-              <td><b>ACCESORIOS</b></td>
-              <td>Bolso cruzado de cuero marrón para apuntes y reloj de pulsera que marca el límite de tiempo.</td>
-            </tr>
-            <tr>
-              <td><b>ANIMACIONES</b></td>
-              <td>Extremidades articuladas diseñadas para las 4 acciones clave: <b>Correr, Saltar, Agacharse y Colisionar</b>.</td>
-            </tr>
-          </tbody>
-        </table>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<br/>
-
-<!-- SEPARADOR DE SECCIÓN 03 CON FONDO SÓLIDO -->
-<div align="center" id="escenarios-del-campus">
-  <table>
-    <thead>
-      <tr>
-        <th width="1000" align="center">
-          $\normalsize\color{#D4AF37}\textbf{SECCION 03}$ &nbsp; $\Large\color{#7A1C2E}\textbf{ESCENARIOS Y PASILLOS UNIVERSITARIOS}$
-        </th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td align="center">
-          <i>Ambientes diseñados con identidad institucional, iluminación interior detallada y obstáculos integrados en el recorrido.</i>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-</div>
-
-<!-- TARJETA PANORÁMICA PRINCIPAL -->
-<table>
-  <thead>
-    <tr>
-      <th align="center">
-        <img src="https://img.shields.io/badge/ZONA_01-PASILLO_CENTRAL_DE_AULAS_Y_LABORATORIOS-7A1C2E?style=for-the-badge&labelColor=1E242B" alt="Zona 01"/>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="center">
-        <br/>
-        <img src="assets/images/Fondo_Pasillo.jpg" alt="Pasillo Principal del Campus" width="100%"/>
-        <br/><br/>
-        <pre align="center">CORREDOR PRINCIPAL — SEÑALIZACION VIAL EN PISO, BEBEDEROS Y CARRITOS DE PROYECTORES</pre>
-        <p>Vista general del corredor principal con señalización en el piso, dispensadores de agua, estantes de libros y equipos audiovisuales.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<!-- GRILLA DE TRES TARJETAS CON CABECERA Y FONDO -->
-<table>
-  <thead>
-    <tr>
-      <th width="33%" align="center">
-        <img src="https://img.shields.io/badge/ZONA_02-SALA_DE_COMPUTO-D4AF37?style=for-the-badge&labelColor=1E242B" alt="Zona 02"/>
-      </th>
-      <th width="33%" align="center">
-        <img src="https://img.shields.io/badge/ZONA_03-AREA_DE_DESCANSO-7A1C2E?style=for-the-badge&labelColor=1E242B" alt="Zona 03"/>
-      </th>
-      <th width="33%" align="center">
-        <img src="https://img.shields.io/badge/ZONA_04-PARTIDA_EN_CURSO-D4AF37?style=for-the-badge&labelColor=1E242B" alt="Zona 04"/>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td width="33%" align="center" valign="top">
-        <br/>
-        <img src="assets/images/Fondo_02.jpg" alt="Sector Laboratorios" width="100%"/>
-        <br/><br/>
-        <pre>OBSTACULOS: MOCHILAS Y BASUREROS</pre>
-        <p align="center">Tramo con alta densidad de mochilas, basureros y mobiliario frente al Laboratorio 1 y Aula 102.</p>
-      </td>
-      <td width="33%" align="center" valign="top">
-        <br/>
-        <img src="assets/images/Fondo_03.jpg" alt="Sector Expendedoras" width="100%"/>
-        <br/><br/>
-        <pre>OBSTACULOS: MAQUINAS VENDING</pre>
-        <p align="center">Sección intermedia equipada con máquinas expendedoras de snacks y bebidas junto a las salas de estudio.</p>
-      </td>
-      <td width="33%" align="center" valign="top">
-        <br/>
-        <img src="assets/images/escenario-universidad.png" alt="Partida en Curso" width="100%"/>
-        <br/><br/>
-        <pre>MECANICA: DESLIZAMIENTO Y HUD</pre>
-        <p align="center">Demostración en partida con contador de vidas, puntaje activo y alertas de acción para esquivar obstáculos.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<br/>
-
-<!-- SEPARADOR DE SECCIÓN 04 CON FONDO SÓLIDO -->
-<div align="center" id="jugabilidad-e-interfaz">
-  <table>
-    <thead>
-      <tr>
-        <th width="1000" align="center">
-          $\normalsize\color{#D4AF37}\textbf{SECCION 04}$ &nbsp; $\Large\color{#7A1C2E}\textbf{INTERFAZ GRAFICA: PORTADA Y MENU}$
-        </th>
-      </tr>
-    </thead>
-  </table>
-</div>
-
-<table>
-  <thead>
-    <tr>
-      <th width="50%" align="center">
-        <img src="https://img.shields.io/badge/ARTE_OFICIAL-PORTADA_DEL_JUEGO-7A1C2E?style=for-the-badge&labelColor=1E242B" alt="Portada"/>
-      </th>
-      <th width="50%" align="center">
-        <img src="https://img.shields.io/badge/INTERFAZ_UI-MENU_DE_INICIO-D4AF37?style=for-the-badge&labelColor=1E242B" alt="Menu Inicial"/>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td width="50%" align="center" valign="top">
-        <br/>
-        <img src="assets/images/portada-juego.png" alt="Portada del Juego" width="100%"/>
-        <br/><br/>
-        <pre>PANTALLA DE PRESENTACION OFICIAL</pre>
-      </td>
-      <td width="50%" align="center" valign="top">
-        <br/>
-        <img src="assets/images/menu-inicial.png" alt="Menú Inicial" width="100%"/>
-        <br/><br/>
-        <pre>ACCESO A PARTIDA Y CONFIGURACION</pre>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-<br/>
-
-<!-- SEPARADOR DE SECCIÓN 05 CON FONDO SÓLIDO -->
-<div align="center" id="controles-y-mecanicas">
-  <table>
-    <thead>
-      <tr>
-        <th width="1000" align="center">
-          $\normalsize\color{#D4AF37}\textbf{SECCION 05}$ &nbsp; $\Large\color{#7A1C2E}\textbf{ESQUEMA DE CONTROLES Y MECANICAS}$
-        </th>
-      </tr>
-    </thead>
-  </table>
-</div>
+<a name="inicio"></a>
 
 <div align="center">
-  <table>
-    <thead>
-      <tr>
-        <th align="center">ACCION</th>
-        <th align="center">TECLA PRINCIPAL</th>
-        <th align="center">TECLA ALTERNATIVA</th>
-        <th align="left">FUNCION DENTRO DE LA PARTIDA</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td align="center"><img src="https://img.shields.io/badge/SALTAR-7A1C2E?style=flat-square" alt="Saltar"/></td>
-        <td align="center"><kbd>Espacio</kbd></td>
-        <td align="center"><kbd>W</kbd> / <kbd>Flecha Arriba</kbd></td>
-        <td>Permite superar mochilas, botes de basura, libros apilados y conos en el suelo.</td>
-      </tr>
-      <tr>
-        <td align="center"><img src="https://img.shields.io/badge/AGACHARSE-D4AF37?style=flat-square" alt="Agacharse"/></td>
-        <td align="center"><kbd>S</kbd></td>
-        <td align="center"><kbd>Flecha Abajo</kbd></td>
-        <td>Reduce la caja de colisión del personaje para pasar bajo carritos y obstáculos altos.</td>
-      </tr>
-      <tr>
-        <td align="center"><img src="https://img.shields.io/badge/CARRILES-7A1C2E?style=flat-square" alt="Carriles"/></td>
-        <td align="center"><kbd>A</kbd> / <kbd>D</kbd></td>
-        <td align="center"><kbd>Flecha Izq.</kbd> / <kbd>Der.</kbd></td>
-        <td>Desplaza lateralmente al personaje entre los carriles del pasillo universitario.</td>
-      </tr>
-      <tr>
-        <td align="center"><img src="https://img.shields.io/badge/PAUSA-1E242B?style=flat-square" alt="Pausa"/></td>
-        <td align="center"><kbd>Esc</kbd></td>
-        <td align="center"><kbd>P</kbd></td>
-        <td>Detiene temporalmente la partida y muestra las opciones de reinicio o salida.</td>
-      </tr>
-    </tbody>
-  </table>
+
+<img src="assets/readme/cabecera.svg" alt="¡Yeti-enes que correr! Una defensa está por empezar. El campus tiene otros planes." width="100%">
+
+<p>
+<img src="assets/readme/etiqueta-motor.svg" alt="Motor: Unity 3D" width="200">
+<img src="assets/readme/etiqueta-lenguaje.svg" alt="Lenguaje: C#" width="200">
+<img src="assets/readme/etiqueta-estilo.svg" alt="Estilo: Cartoon 3D" width="200">
+<img src="assets/readme/etiqueta-plataforma.svg" alt="Versión web: WebGL" width="200">
+</p>
+
+<h1>Corre Yeti Corre</h1>
+<p><strong>ENDLESS RUNNER UNIVERSITARIO</strong></p>
+<p>Una defensa está por empezar. Recorre el campus, supera los obstáculos y llega a tiempo.</p>
+
+<a href="https://katfipol.itch.io/yeti-enes-que-correr"><img src="assets/readme/boton-jugar.svg" alt="Jugar ahora en itch.io" width="260"></a> &nbsp; <a href="https://martinleano72-afk.github.io/yeti-portal/"><img src="assets/readme/boton-portal.svg" alt="Explorar el portal web" width="260"></a>
+
+<p><a href="https://katfipol.itch.io/yeti-enes-que-correr">Abrir el juego</a> · <a href="https://martinleano72-afk.github.io/yeti-portal/">Visitar el portal</a> · <a href="#jugar">Cómo jugar</a></p>
+
 </div>
 
-<br/>
+<a name="explora-el-campus"></a>
 
-<!-- SEPARADOR DE SECCIÓN 06 CON FONDO SÓLIDO -->
-<div align="center" id="arquitectura-y-metricas">
-  <table>
-    <thead>
-      <tr>
-        <th width="1000" align="center">
-          $\normalsize\color{#D4AF37}\textbf{SECCION 06}$ &nbsp; $\Large\color{#7A1C2E}\textbf{METRICAS Y ESTRUCTURA DEL PROYECTO}$
-        </th>
-      </tr>
-    </thead>
-  </table>
-  <img src="assets/readme/metricas.svg" alt="Métricas del Proyecto" width="100%"/>
+## Explora el campus
+
+<div align="center">
+
+<a href="#narrativa-visual"><img src="assets/readme/nav-01.svg" alt="NARRATIVA" width="176"></a> <a href="#ficha-del-protagonista"><img src="assets/readme/nav-02.svg" alt="PROTAGONISTA" width="176"></a> <a href="#escenarios-del-campus"><img src="assets/readme/nav-03.svg" alt="ESCENARIOS" width="176"></a> <a href="#jugabilidad-e-interfaz"><img src="assets/readme/nav-04.svg" alt="INTERFAZ" width="176"></a>
+
+<a href="#controles-y-mecanicas"><img src="assets/readme/nav-05.svg" alt="CONTROLES" width="176"></a> <a href="#arquitectura-y-metricas"><img src="assets/readme/nav-06.svg" alt="DESARROLLO" width="176"></a> <a href="#jugar"><img src="assets/readme/nav-07.svg" alt="JUGAR" width="176"></a> <a href="#portal-y-creditos"><img src="assets/readme/nav-08.svg" alt="PORTAL Y CRÉDITOS" width="176"></a>
+
 </div>
 
-<br/>
+[Historia](#narrativa-visual) · [Personaje](#ficha-del-protagonista) · [Escenarios](#escenarios-del-campus) · [Interfaz](#jugabilidad-e-interfaz) · [Controles](#controles-y-mecanicas) · [Desarrollo](#arquitectura-y-metricas) · [Jugar](#jugar) · [Créditos](#portal-y-creditos)
+
+---
+
+<a name="narrativa-visual"></a>
+
+## 01 / Narrativa
+
+<img src="assets/readme/seccion-01.svg" alt="El camino a la defensa" width="100%">
+
+El protagonista llega al campus y descubre que quedan pocos minutos para su defensa de Game Development. Lo que parecía un día tranquilo se convierte en una carrera por los pasillos de la universidad.
+
+<table>
+<tr><th align="left" width="50%">ACTO I / CONTRA EL RELOJ</th><th align="left" width="50%">ACTO II / CAOS EN EL CAMPUS</th></tr>
+<tr><td valign="top">El tiempo apremia. El Yeti comienza a correr y encuentra libros y mochilas que interrumpen su recorrido.</td><td valign="top">La velocidad aumenta. Saltar a tiempo y agacharse bajo los carteles se vuelve esencial para continuar.</td></tr>
+</table>
+
+> **La misión:** conservar tus vidas mientras sumas puntos y avanzas hacia la defensa.
+
+
+[Volver al menú](#explora-el-campus) · [Ir al inicio](#inicio) · [Siguiente: Protagonista](#ficha-del-protagonista)
+
+---
+
+<a name="ficha-del-protagonista"></a>
+
+## 02 / Protagonista
+
+<img src="assets/readme/seccion-02.svg" alt="El Yeti estudiante" width="100%">
+
+<img src="assets/images/personaje-yeti.png" alt="Modelo 3D del Yeti con chaqueta universitaria guinda y gris." width="480">
+
+El pelaje blanco, la chaqueta guinda y gris y las proporciones de estilo cartoon le dan al protagonista una identidad reconocible dentro del campus.
+
+| Componente | Diseño y función |
+| :--- | :--- |
+| **Personaje** | Un Yeti estudiante que debe llegar a su defensa |
+| **Estética** | Modelo 3D de estilo cartoon |
+| **Colores** | Pelaje blanco y chaqueta guinda y gris |
+| **Correr** | Mantiene el desplazamiento automático |
+| **Saltar** | Permite superar obstáculos bajos |
+| **Agacharse** | Reduce el área de colisión para pasar bajo carteles |
+| **Derrota** | Muestra la caída al perder todas las vidas |
+
+
+[Anterior: Narrativa](#narrativa-visual) · [Volver al menú](#explora-el-campus) · [Ir al inicio](#inicio) · [Siguiente: Escenarios](#escenarios-del-campus)
+
+---
+
+<a name="escenarios-del-campus"></a>
+
+## 03 / Escenarios
+
+<img src="assets/readme/seccion-03.svg" alt="Los pasillos del campus" width="100%">
+
+<img src="assets/images/escenario-universidad.png" alt="Partida en los pasillos universitarios con el personaje, obstáculos e indicadores." width="100%">
+
+Los pasillos, las aulas y la señalética universitaria forman parte de la ambientación. Los objetos cotidianos del campus se convierten en obstáculos que exigen reaccionar a tiempo.
+
+| Elemento | Papel en el recorrido |
+| :--- | :--- |
+| **Pasillos y aulas** | Dan contexto al escenario universitario |
+| **Libros y mochilas** | Obstáculos que se superan saltando |
+| **Carteles** | Obstáculos elevados que requieren agacharse |
+| **Desplazamiento del fondo** | Acompaña la sensación de carrera |
+
+
+[Anterior: Protagonista](#ficha-del-protagonista) · [Volver al menú](#explora-el-campus) · [Ir al inicio](#inicio) · [Siguiente: Interfaz](#jugabilidad-e-interfaz)
+
+---
+
+<a name="jugabilidad-e-interfaz"></a>
+
+## 04 / Interfaz
+
+<img src="assets/readme/seccion-04.svg" alt="Del menú a la partida" width="100%">
+
+<table>
+<tr><th width="50%">PORTADA DEL JUEGO</th><th width="50%">MENÚ INICIAL</th></tr>
+<tr><td valign="top"><img src="assets/images/portada-juego.png" alt="Portada del videojuego." width="100%"></td><td valign="top"><img src="assets/images/menu-inicial.png" alt="Menú inicial con acceso a jugar y sonido." width="100%"></td></tr>
+<tr><td>Presenta al protagonista y la temática universitaria.</td><td>Permite comenzar una partida y controlar el sonido.</td></tr>
+</table>
+
+| Pantalla o indicador | Información para el jugador |
+| :--- | :--- |
+| **Menú inicial** | Acceso a la partida y al sonido |
+| **Vidas** | Intentos disponibles antes de terminar la partida |
+| **Puntaje y tiempo** | Progreso durante el recorrido |
+| **Victoria o derrota** | Resultado de la partida y opción de volver a jugar |
+
+
+[Anterior: Escenarios](#escenarios-del-campus) · [Volver al menú](#explora-el-campus) · [Ir al inicio](#inicio) · [Siguiente: Controles](#controles-y-mecanicas)
+
+---
+
+<a name="controles-y-mecanicas"></a>
+
+## 05 / Controles
+
+<img src="assets/readme/seccion-05.svg" alt="Dos teclas y buenos reflejos" width="100%">
+
+El personaje corre automáticamente. Tú decides cuándo saltar y cuándo agacharte.
+
+| Entrada | Acción | Uso |
+| :---: | :--- | :--- |
+| <kbd>↑</kbd> | **Saltar** | Superar libros y mochilas |
+| <kbd>↓</kbd> | **Agacharse** | Pasar bajo carteles suspendidos |
+| **Clic** | **Interactuar** | Botones de inicio, sonido y nuevo intento |
+
+**Haz clic dentro del juego antes de utilizar las flechas.**
+
+### Reglas del recorrido
+
+- Los impactos con obstáculos restan vidas.
+- El puntaje aumenta mientras sobrevives.
+- Los obstáculos aparecen de forma aleatoria.
+- La dificultad aumenta durante el recorrido.
+- Al finalizar, puedes iniciar una nueva partida.
+
+
+[Anterior: Interfaz](#jugabilidad-e-interfaz) · [Volver al menú](#explora-el-campus) · [Ir al inicio](#inicio) · [Siguiente: Desarrollo](#arquitectura-y-metricas)
+
+---
+
+<a name="arquitectura-y-metricas"></a>
+
+## 06 / Desarrollo
+
+<img src="assets/readme/seccion-06.svg" alt="Mecánicas y tecnología" width="100%">
+
+| Tecnología | Uso dentro del proyecto |
+| :--- | :--- |
+| **Unity** | Escenas, físicas, interfaz y compilación del videojuego |
+| **C#** | Movimiento, obstáculos, vidas, puntaje y sonido |
+| **Mixamo** | Animaciones del personaje |
+| **HTML y CSS** | Presentación y diseño adaptable del portal |
+| **JavaScript** | Navegación e interacciones del portal |
+| **GitHub Pages** | Publicación del portal web |
+| **itch.io** | Acceso a la versión jugable en el navegador |
 
 <details>
-  <summary><b>ESTRUCTURA DE ARCHIVOS MULTIMEDIA DEL REPOSITORIO (CLIC PARA DESPLEGAR)</b></summary>
-  <br/>
+<summary><strong>Ver la organización funcional del videojuego</strong></summary>
 
-```text
-├── README.md
-└── assets/
-    ├── images/
-    │   ├── Fondo_02.jpg               # Escenario de pasillo con laboratorios y mochilas
-    │   ├── Fondo_03.jpg               # Escenario de pasillo con máquinas expendedoras
-    │   ├── Fondo_Pasillo.jpg          # Escenario base del corredor universitario
-    │   ├── escenario-universidad.png  # Captura de partida en curso con interfaz HUD
-    │   ├── menu-inicial.png           # Interfaz gráfica del menú principal
-    │   ├── personaje-yeti.png         # Render limpio del protagonista
-    │   ├── personaje.png              # Infografía técnica 3D del Yeti Estudiante
-    │   ├── portada-juego.png          # Arte promocional principal
-    │   ├── story1.png                 # Viñeta narrativa Acto I
-    │   └── story2.png                 # Viñeta narrativa Acto II
-    └── readme/
-        ├── cabecera.svg               # Banner vectorial superior
-        ├── boton-jugar.svg            # Botón interactivo de acceso al juego
-        ├── boton-portal.svg           # Botón interactivo del portal web
-        └── metricas.svg               # Panel vectorial de estadísticas
+| Área | Responsabilidad |
+| :--- | :--- |
+| **Jugador** | Ejecutar salto y agachado y coordinar animaciones |
+| **Obstáculos** | Generar elementos y retirar los que quedan atrás |
+| **Partida** | Controlar el progreso, el puntaje y el resultado |
+| **Vidas** | Registrar impactos y determinar la derrota |
+| **Interfaz** | Mostrar información y gestionar los botones |
+| **Audio** | Reproducir música y efectos de acciones y resultados |
+
+</details>
+
+<details>
+<summary><strong>Ver las carpetas del portal</strong></summary>
+
+| Ruta | Contenido |
+| :--- | :--- |
+| `index.html` | Página principal del portal |
+| `style.css` | Estilos y adaptación a diferentes pantallas |
+| `script.js` | Interacciones del portal |
+| `assets/images/` | Capturas, portada y personaje |
+| `assets/readme/` | Cabecera, botones y navegación de esta presentación |
+| `README.md` | Documentación del proyecto |
+
+</details>
+
+
+[Anterior: Controles](#controles-y-mecanicas) · [Volver al menú](#explora-el-campus) · [Ir al inicio](#inicio) · [Siguiente: Jugar](#jugar)
+
+---
+
+<a name="jugar"></a>
+
+## 07 / Jugar
+
+<img src="assets/readme/seccion-07.svg" alt="Comienza tu carrera" width="100%">
+
+<div align="center">
+
+<a href="https://katfipol.itch.io/yeti-enes-que-correr"><img src="assets/readme/boton-jugar.svg" alt="Jugar ahora en itch.io" width="280"></a>
+
+</div>
+
+1. Abre el [juego en itch.io](https://katfipol.itch.io/yeti-enes-que-correr).
+2. Pulsa **Run game** y espera a que termine de cargar.
+3. Selecciona **Jugar** en el menú inicial.
+4. Haz clic dentro de la partida para activar el teclado.
+5. Utiliza <kbd>↑</kbd> para saltar y <kbd>↓</kbd> para agacharte.
+
+<details>
+<summary><strong>Requisitos y ayuda rápida</strong></summary>
+
+- Utiliza una computadora con teclado y un navegador compatible con WebGL.
+- Necesitas conexión a internet para cargar la partida.
+- Puedes ampliar la vista con el botón de pantalla completa del reproductor.
+- Si las flechas no responden, haz clic dentro del juego.
+- Si no escuchas audio, revisa el botón de sonido del menú y el volumen de la pestaña.
+- El portal se adapta a pantallas pequeñas; esta versión del juego utiliza teclado.
+
+</details>
+
+
+[Anterior: Desarrollo](#arquitectura-y-metricas) · [Volver al menú](#explora-el-campus) · [Ir al inicio](#inicio) · [Siguiente: Portal y créditos](#portal-y-creditos)
+
+---
+
+<a name="portal-y-creditos"></a>
+
+## 08 / Portal y créditos
+
+<img src="assets/readme/seccion-08.svg" alt="Un proyecto con identidad" width="100%">
+
+El portal reúne la presentación del juego, la historia, el protagonista, las mecánicas y el acceso a la partida. Mantiene la identidad guinda, crema y dorada del proyecto.
+
+<div align="center">
+
+<a href="https://martinleano72-afk.github.io/yeti-portal/"><img src="assets/readme/boton-portal.svg" alt="Visitar el portal del proyecto" width="280"></a>
+
+</div>
+
+### Créditos
+
+| Participación | Integrantes |
+| :--- | :--- |
+| **Videojuego** | Melani Quintela Aguilar y José Martin Leaño Mercado |
+| **Portal web** | [Martín Leaño](https://github.com/martinleano72-afk) |
+| **Asignatura** | Game Development |
+
+Proyecto académico desarrollado en Unity y presentado mediante un portal web.
+
+
+[Anterior: Jugar](#jugar) · [Volver al menú](#explora-el-campus) · [Ir al inicio](#inicio)
+
+---
+<div align="center">
+
+<strong>EL CAMPUS TE ESPERA. LA DEFENSA TAMBIÉN.</strong>
+
+<p><a href="https://katfipol.itch.io/yeti-enes-que-correr">Jugar ahora</a> · <a href="https://martinleano72-afk.github.io/yeti-portal/">Explorar el portal</a> · <a href="#inicio">Volver al inicio</a></p>
+
+</div>
