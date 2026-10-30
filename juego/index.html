@@ -7,7 +7,95 @@
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
+  
+  <style>
+  html {
+    min-height: 100%;
+    background: #36101f;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background:
+      radial-gradient(
+        ellipse at top left,
+        rgba(244, 203, 105, 0.14),
+        transparent 55%
+      ),
+      linear-gradient(
+        135deg,
+        #501329 0%,
+        #781e3c 50%,
+        #36101f 100%
+      );
+  }
+
+  #unity-canvas {
+    border-radius: 12px 12px 0 0;
+    box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+  }
+
+  #unity-footer {
+    background: #f6f1e7;
+    color: #501329;
+    border-radius: 0 0 12px 12px;
+  }
+
+  #unity-build-title {
+    color: #501329;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 600;
+  }
+
+  #unity-fullscreen-button {
+    border-radius: 6px;
+  }
+    .volver-portal {
+  position: fixed;
+  top: 18px;
+  left: 18px;
+  z-index: 100;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 18px;
+  border: 1px solid #f4cb69;
+  border-radius: 10px;
+  background: #f6f1e7;
+  color: #501329;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 4px 0 #36101f;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.volver-portal:hover {
+  background: #f4cb69;
+  transform: translateY(-2px);
+}
+
+.volver-portal:focus-visible {
+  outline: 3px solid #f4cb69;
+  outline-offset: 4px;
+}
+
+@media (max-width: 600px) {
+  .volver-portal {
+    top: 10px;
+    left: 10px;
+    padding: 10px 14px;
+    font-size: 14px;
+  }
+}
+</style>
   <body>
+    <a class="volver-portal" href="../">
+  <span aria-hidden="true">&larr;</span>
+  Volver al portal
+</a>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=540 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
