@@ -90,12 +90,44 @@
     font-size: 14px;
   }
 }
+    .navegacion-juego {
+  position: fixed;
+  top: 18px;
+  left: 18px;
+  right: 18px;
+  z-index: 100;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.navegacion-juego .volver-portal {
+  position: static;
+}
+
+@media (max-width: 600px) {
+  .navegacion-juego {
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    gap: 8px;
+  }
+}
 </style>
   <body>
-    <a class="volver-portal" href="../">
-  <span aria-hidden="true">&larr;</span>
-  Volver al portal
-</a>
+    <nav class="navegacion-juego" aria-label="Enlaces del proyecto">
+  <a class="volver-portal" href="../">
+    <span aria-hidden="true">&larr;</span>
+    Volver al portal
+  </a>
+
+  <a class="volver-portal"
+     href="https://github.com/katfipol/yeti-portal"
+     target="_blank"
+     rel="noopener noreferrer">
+    Ver en GitHub
+  </a>
+</nav>
     <div id="unity-container" class="unity-desktop">
       <canvas id="unity-canvas" width=960 height=540 tabindex="-1"></canvas>
       <div id="unity-loading-bar">
