@@ -15,9 +15,9 @@
 <p><strong>ENDLESS RUNNER UNIVERSITARIO</strong></p>
 <p>Una defensa está por empezar. Recorre el campus, supera los obstáculos y llega a tiempo.</p>
 
-<a href="https://martinleano72-afk.github.io/yeti-portal/juego/"><img src="assets/readme/boton-jugar.svg" alt="Jugar ahora en GitHub Pages" width="260"></a> &nbsp; <a href="https://martinleano72-afk.github.io/yeti-portal/"><img src="assets/readme/boton-portal.svg" alt="Explorar el portal web" width="260"></a>
+<a href="https://katfipol.github.io/yeti-portal/juego/"><img src="assets/readme/boton-jugar.svg" alt="Jugar ahora en GitHub Pages" width="260"></a> &nbsp; <a href="hhttps://katfipol.github.io/yeti-portal/"><img src="assets/readme/boton-portal.svg" alt="Explorar el portal web" width="260"></a>
 
-<p><a href="https://martinleano72-afk.github.io/yeti-portal/juego/"><img src="assets/readme/enlace-27.svg" alt="Abrir el juego" width="144" height="38"></a> · <a href="https://martinleano72-afk.github.io/yeti-portal/"><img src="assets/readme/enlace-28.svg" alt="Visitar el portal" width="168" height="38"></a> · <a href="#jugar"><img src="assets/readme/enlace-29.svg" alt="Cómo jugar" width="120" height="38"></a></p>
+<p><a href="hhttps://katfipol.github.io/yeti-portal/juego/"><img src="assets/readme/enlace-27.svg" alt="Abrir el juego" width="144" height="38"></a> · <a href="hhttps://katfipol.github.io/yeti-portal/"><img src="assets/readme/enlace-28.svg" alt="Visitar el portal" width="168" height="38"></a> · <a href="#jugar"><img src="assets/readme/enlace-29.svg" alt="Cómo jugar" width="120" height="38"></a></p>
 
 </div>
 
@@ -216,11 +216,11 @@ El personaje corre automáticamente. Tú decides cuándo saltar y cuándo agacha
 
 <div align="center">
 
-<a href="https://martinleano72-afk.github.io/yeti-portal/juego/"><img src="assets/readme/boton-jugar.svg" alt="Jugar ahora en GitHub Pages" width="280"></a>
+<a href="hhttps://katfipol.github.io/yeti-portal/juego/"><img src="assets/readme/boton-jugar.svg" alt="Jugar ahora en GitHub Pages" width="280"></a>
 
 </div>
 
-1. Abre el <a href="https://martinleano72-afk.github.io/yeti-portal/juego/"><img src="assets/readme/enlace-22.svg" alt="juego en GitHub Pages" width="200" height="38"></a>.
+1. Abre el <a href="hhttps://katfipol.github.io/yeti-portal/juego/"><img src="assets/readme/enlace-22.svg" alt="juego en GitHub Pages" width="200" height="38"></a>.
 2. Espera a que termine de cargar el menú inicial.
 3. Selecciona **Jugar** en el menú inicial.
 4. Haz clic dentro de la partida para activar el teclado.
@@ -253,7 +253,7 @@ El portal reúne la presentación del juego, la historia, el protagonista, las m
 
 <div align="center">
 
-<a href="https://martinleano72-afk.github.io/yeti-portal/"><img src="assets/readme/boton-portal.svg" alt="Visitar el portal del proyecto" width="280"></a>
+<a href="hhttps://katfipol.github.io/yeti-portal/"><img src="assets/readme/boton-portal.svg" alt="Visitar el portal del proyecto" width="280"></a>
 
 </div>
 
@@ -275,6 +275,6 @@ Proyecto académico desarrollado en Unity y presentado mediante un portal web.
 
 <strong>EL CAMPUS TE ESPERA. LA DEFENSA TAMBIÉN.</strong>
 
-<p><a href="https://martinleano72-afk.github.io/yeti-portal/juego/"><img src="assets/readme/enlace-30.svg" alt="Jugar ahora" width="120" height="38"></a> · <a href="https://martinleano72-afk.github.io/yeti-portal/"><img src="assets/readme/enlace-31.svg" alt="Explorar el portal" width="176" height="38"></a> · <a href="#inicio"><img src="assets/readme/enlace-32.svg" alt="Volver al inicio" width="160" height="38"></a></p>
+<p><a href="hhttps://katfipol.github.io/yeti-portal/juego/"><img src="assets/readme/enlace-30.svg" alt="Jugar ahora" width="120" height="38"></a> · <a href="hhttps://katfipol.github.io/yeti-portal/"><img src="assets/readme/enlace-31.svg" alt="Explorar el portal" width="176" height="38"></a> · <a href="#inicio"><img src="assets/readme/enlace-32.svg" alt="Volver al inicio" width="160" height="38"></a></p>
 
 </div>
