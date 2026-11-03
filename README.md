@@ -4,16 +4,18 @@
 
 <br>
 
-<img src="assets/readme/etiqueta-motor.svg" alt="Motor: Unity 3D" width="180">
-<img src="assets/readme/etiqueta-lenguaje.svg" alt="Lenguaje: C#" width="180">
-<img src="assets/readme/etiqueta-estilo.svg" alt="Estilo: Cartoon 3D" width="180">
-<img src="assets/readme/etiqueta-plataforma.svg" alt="Versión web: WebGL" width="180">
+![Unity](https://img.shields.io/badge/UNITY_3D-7A1F3D?style=for-the-badge&logo=unity&logoColor=F5E9D0)
+![C#](https://img.shields.io/badge/C%23-E0A526?style=for-the-badge&logoColor=white&labelColor=E0A526)
+![Cartoon 3D](https://img.shields.io/badge/ESTILO-CARTOON_3D-7A1F3D?style=for-the-badge&labelColor=4A4A4A)
+![WebGL](https://img.shields.io/badge/VERSI%C3%93N_WEB-WEBGL-E0A526?style=for-the-badge&labelColor=4A4A4A)
 
 # Corre Yeti Corre
 
-**Endless runner universitario**
+**ENDLESS RUNNER UNIVERSITARIO**
 
 *Una defensa está por empezar. Recorre el campus, supera los obstáculos y llega a tiempo.*
+
+<p><code>VIDAS 3/3</code> &nbsp;·&nbsp; <code>PUNTAJE 0000</code> &nbsp;·&nbsp; <code>TIEMPO 00:30</code> &nbsp;·&nbsp; <code>NIVEL CAMPUS</code></p>
 
 <a href="https://katfipol.github.io/yeti-portal/juego/"><img src="assets/readme/boton-jugar.svg" alt="Jugar ahora" width="260"></a>
 &nbsp;
@@ -21,22 +23,38 @@
 
 <br>
 
-[Historia](#historia) · [Protagonista](#protagonista) · [Escenarios](#escenarios) · [Interfaz](#interfaz) · [Controles](#controles) · [Desarrollo](#desarrollo) · [Cómo jugar](#cómo-jugar) · [Créditos](#créditos)
+[![Historia](https://img.shields.io/badge/HISTORIA-7A1F3D?style=flat-square)](#historia)
+[![Protagonista](https://img.shields.io/badge/PROTAGONISTA-7A1F3D?style=flat-square)](#protagonista)
+[![Escenarios](https://img.shields.io/badge/ESCENARIOS-7A1F3D?style=flat-square)](#escenarios)
+[![Interfaz](https://img.shields.io/badge/INTERFAZ-7A1F3D?style=flat-square)](#interfaz)
+[![Controles](https://img.shields.io/badge/CONTROLES-E0A526?style=flat-square)](#controles)
+[![Desarrollo](https://img.shields.io/badge/DESARROLLO-E0A526?style=flat-square)](#desarrollo)
+[![Cómo jugar](https://img.shields.io/badge/C%C3%93MO_JUGAR-E0A526?style=flat-square)](#cómo-jugar)
+[![Créditos](https://img.shields.io/badge/CR%C3%89DITOS-E0A526?style=flat-square)](#créditos)
 
 </div>
 
----
+<img src="assets/readme/divisor.svg" alt="" width="100%">
 
 ## Historia
 
 El protagonista llega al campus y descubre que quedan pocos minutos para su defensa de Game Development. Lo que parecía un día tranquilo se convierte en una carrera por los pasillos de la universidad.
 
-- **Acto I · Contra el reloj:** el Yeti comienza a correr y encuentra libros y mochilas que interrumpen su recorrido.
-- **Acto II · Caos en el campus:** la velocidad aumenta. Saltar a tiempo y agacharse bajo los carteles se vuelve esencial para continuar.
+<table>
+<tr>
+<th align="left" width="50%">ACTO I &nbsp;/&nbsp; CONTRA EL RELOJ</th>
+<th align="left" width="50%">ACTO II &nbsp;/&nbsp; CAOS EN EL CAMPUS</th>
+</tr>
+<tr>
+<td valign="top">El Yeti comienza a correr y encuentra libros y mochilas que interrumpen su recorrido.</td>
+<td valign="top">La velocidad aumenta. Saltar a tiempo y agacharse bajo los carteles se vuelve esencial para continuar.</td>
+</tr>
+</table>
 
+> [!IMPORTANT]
 > **La misión:** conservar tus vidas mientras sumas puntos y avanzas hacia la defensa.
 
----
+<img src="assets/readme/divisor.svg" alt="" width="100%">
 
 ## Protagonista
 
@@ -44,20 +62,24 @@ El protagonista llega al campus y descubre que quedan pocos minutos para su defe
 <img src="assets/images/personaje-yeti.png" alt="Modelo 3D del Yeti con chaqueta universitaria guinda y gris." width="420">
 </div>
 
-Un Yeti estudiante de pelaje blanco y chaqueta guinda y gris, con proporciones cartoon que le dan una identidad reconocible dentro del campus.
+<br>
+
+Un Yeti estudiante de pelaje blanco y chaqueta guinda y gris. Sus proporciones cartoon le dan una identidad reconocible dentro del campus.
 
 | Acción | Descripción |
 | :--- | :--- |
-| 🏃 **Correr** | Desplazamiento automático |
-| ⬆️ **Saltar** | Supera obstáculos bajos |
-| ⬇️ **Agacharse** | Reduce el área de colisión para pasar bajo carteles |
-| 💥 **Derrota** | Se muestra la caída al perder todas las vidas |
+| **Correr** | Desplazamiento automático durante todo el recorrido |
+| **Saltar** | Permite superar obstáculos bajos |
+| **Agacharse** | Reduce el área de colisión para pasar bajo carteles |
+| **Derrota** | Se muestra la caída al perder todas las vidas |
 
----
+<img src="assets/readme/divisor.svg" alt="" width="100%">
 
 ## Escenarios
 
 <img src="assets/images/escenario-universidad.png" alt="Partida en los pasillos universitarios con el personaje, obstáculos e indicadores." width="100%">
+
+<br>
 
 Los pasillos, las aulas y la señalética universitaria forman parte de la ambientación. Los objetos cotidianos del campus se convierten en obstáculos que exigen reaccionar a tiempo.
 
@@ -67,24 +89,28 @@ Los pasillos, las aulas y la señalética universitaria forman parte de la ambie
 | **Carteles** | Obstáculos elevados que requieren agacharse |
 | **Fondo en movimiento** | Refuerza la sensación de carrera |
 
----
+<img src="assets/readme/divisor.svg" alt="" width="100%">
 
 ## Interfaz
 
 <table>
 <tr>
-<th width="50%">Portada del juego</th>
-<th width="50%">Menú inicial</th>
+<th width="50%">PORTADA DEL JUEGO</th>
+<th width="50%">MENÚ INICIAL</th>
 </tr>
 <tr>
 <td><img src="assets/images/portada-juego.png" alt="Portada del videojuego." width="100%"></td>
 <td><img src="assets/images/menu-inicial.png" alt="Menú inicial con acceso a jugar y sonido." width="100%"></td>
 </tr>
+<tr>
+<td>Presenta al protagonista y la temática universitaria.</td>
+<td>Permite comenzar una partida y controlar el sonido.</td>
+</tr>
 </table>
 
 Durante la partida se muestran las **vidas**, el **puntaje** y el **tiempo**. Al terminar aparece el resultado (victoria o derrota) con la opción de volver a jugar.
 
----
+<img src="assets/readme/divisor.svg" alt="" width="100%">
 
 ## Controles
 
@@ -96,7 +122,8 @@ El personaje corre automáticamente. Tú decides cuándo saltar y cuándo agacha
 | <kbd>↓</kbd> | **Agacharse** | Pasar bajo carteles suspendidos |
 | **Clic** | **Interactuar** | Botones de inicio, sonido y nuevo intento |
 
-> 💡 **Haz clic dentro del juego antes de usar las flechas.**
+> [!TIP]
+> Haz clic dentro del juego antes de usar las flechas para activar el teclado.
 
 **Reglas del recorrido**
 
@@ -105,7 +132,7 @@ El personaje corre automáticamente. Tú decides cuándo saltar y cuándo agacha
 - Los obstáculos aparecen de forma aleatoria.
 - La dificultad aumenta durante el recorrido.
 
----
+<img src="assets/readme/divisor.svg" alt="" width="100%">
 
 ## Desarrollo
 
@@ -145,14 +172,14 @@ El personaje corre automáticamente. Tú decides cuándo saltar y cuándo agacha
 | `style.css` | Estilos y adaptación a diferentes pantallas |
 | `script.js` | Interacciones del portal |
 | `assets/images/` | Capturas, portada y personaje |
-| `assets/readme/` | Cabecera y botones de este README |
+| `assets/readme/` | Cabecera, botones y divisores de este README |
 | `juego/index.html` | Página de ejecución del juego |
 | `juego/Build/` | Compilación web de Unity |
 | `juego/TemplateData/` | Recursos del reproductor |
 
 </details>
 
----
+<img src="assets/readme/divisor.svg" alt="" width="100%">
 
 ## Cómo jugar
 
@@ -182,14 +209,14 @@ El personaje corre automáticamente. Tú decides cuándo saltar y cuándo agacha
 
 </details>
 
----
+<img src="assets/readme/divisor.svg" alt="" width="100%">
 
 ## Créditos
 
 | Participación | Integrantes |
 | :--- | :--- |
 | **Videojuego** | Melani Quintela Aguilar y José Martin Leaño Mercado |
-| **Portal web** | [Martín Leaño](https://github.com/martinleano72-afk) |
+| **Portal web** | [![GitHub](https://img.shields.io/badge/MART%C3%8DN_LE%C3%81O-7A1F3D?style=flat-square&logo=github&logoColor=F5E9D0)](https://github.com/martinleano72-afk) |
 | **Asignatura** | Game Development |
 
 Proyecto académico desarrollado en Unity y presentado mediante un portal web.
@@ -198,8 +225,10 @@ Proyecto académico desarrollado en Unity y presentado mediante un portal web.
 
 <div align="center">
 
-**El campus te espera. La defensa también.**
+**EL CAMPUS TE ESPERA. LA DEFENSA TAMBIÉN.**
 
-[Jugar ahora](https://katfipol.github.io/yeti-portal/juego/) · [Visitar el portal](https://katfipol.github.io/yeti-portal/) · [Volver arriba](#corre-yeti-corre)
+[![Jugar ahora](https://img.shields.io/badge/JUGAR_AHORA-7A1F3D?style=for-the-badge&logo=unity&logoColor=F5E9D0)](https://katfipol.github.io/yeti-portal/juego/)
+[![Visitar el portal](https://img.shields.io/badge/VISITAR_EL_PORTAL-E0A526?style=for-the-badge&logo=githubpages&logoColor=white)](https://katfipol.github.io/yeti-portal/)
+[![Volver arriba](https://img.shields.io/badge/VOLVER_ARRIBA-4A4A4A?style=for-the-badge)](#corre-yeti-corre)
 
 </div>
