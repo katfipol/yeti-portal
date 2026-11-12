@@ -1,4 +1,4 @@
-// La navegación sigue visible si JavaScript no está disponible.
+// Control del menú desplegable en pantallas móviles.
 const botonMenu = document.querySelector(".menu-toggle");
 const menu = document.querySelector("#menu-principal");
 
@@ -33,15 +33,13 @@ if (botonMenu && menu) {
     }
   });
 
-  // Evita conservar abierto el menú al cambiar de tamaño.
-  const pantallaMovil = window.matchMedia("(max-width: 900px)");
-
+  const pantallaMovil = window.matchMedia("(max-width: 960px)");
   pantallaMovil.addEventListener("change", () => {
     cambiarMenu(false);
   });
 }
 
-// Marca el enlace de la sección que ocupa la zona central de lectura.
+// Resaltado automático de la sección activa en la barra de navegación.
 const enlacesSecciones = document.querySelectorAll(
   '#menu-principal a[href^="#"]'
 );
@@ -78,3 +76,46 @@ if ("IntersectionObserver" in window) {
 
   secciones.forEach((seccion) => observador.observe(seccion));
 }
+
+// Control explícito de inicio (START) para cada sección de videojuego.
+const botonesStart = document.querySelectorAll(".btn-start");
+
+botonesStart.forEach((boton) => {
+  boton.addEventListener("click", () => {
+    const idIframe = boton.getAttribute("data-target");
+    const idOverlay = boton.getAttribute("data-overlay");
+    const idStatus = boton.getAttribute("data-status");
+
+    const iframe = document.getElementById(idIframe);
+    const overlay = document.getElementById(idOverlay);
+    const status = document.getElementById(idStatus);
+
+    if (!iframe) return;
+
+    const rutaJuego = iframe.getAttribute("data-src");
+
+    // Carga o recarga el videojuego únicamente cuando el usuario presiona el botón.
+    if (rutaJuego) {
+      iframe.setAttribute("src", rutaJuego);
+    }
+
+    if (overlay) {
+      overlay.classList.add("is-hidden");
+    }
+
+    if (status) {
+      status.textContent = "Estado: En ejecución (Haz clic dentro del juego para usar el teclado)";
+    }
+
+    boton.textContent = "REINICIAR";
+    boton.classList.add("is-running");
+
+    iframe.addEventListener(
+      "load",
+      () => {
+        iframe.focus();
+      },
+      { once: true }
+    );
+  });
+});
